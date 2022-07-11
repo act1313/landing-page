@@ -1,0 +1,27 @@
+a {
+    text-decoration: none;
+}
+body {
+    margin: 0;
+    font-family: "roboto";
+}
+.header {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 150px;
+}
+.header div a {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.header a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.header .logo {
+    font-size: 24px;
+    color: #F9FAf8;
+}
