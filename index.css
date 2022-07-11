@@ -45,25 +45,37 @@ body {
     flex: 1;
     color: #E5E7EB;
 }
-.underHeader .right {
+.right {
     flex: 1;
+    
 }
 
-.underHeader .left h1 {
+.right img {
+    border-radius: 25px;
+}
+
+.left h1 {
     font-size: 48px;
     font-weight: 900;
     margin: 20px 0px 0px 0px;
 }
 
-.underHeader .left p {
+.left p {
     font-size: 18px;
     font-weight: 300;
 }
 
-.underHeader .left h2 {
+.left h2 {
     border-radius: 25px;
     background: #3882f6;
     padding: 20px;
     width: 85px;
     height: auto;
+}
+
+.fourPictures {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 150px;
 }
