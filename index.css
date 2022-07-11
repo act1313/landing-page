@@ -85,8 +85,6 @@ body {
     border-radius: 25px;
 }
 .pic {
-    font-color: #1f2937;
-    font-size: 12px;
-    align-items: center;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
