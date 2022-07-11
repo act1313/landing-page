@@ -85,7 +85,9 @@ body {
     border-radius: 25px;
 }
 .pic {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: table;
+    width: 1%;
+}
+.text {
+    overflow: hidden;
 }
