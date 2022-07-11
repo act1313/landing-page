@@ -3,8 +3,7 @@ a {
 }
 body {
     margin: 0;
-    font-family: "roboto";
-}
+    font-family: 'Roboto', sans-serif;}
 .header {
     display: flex;
     background-color: #1f2937;
@@ -21,7 +20,50 @@ body {
     font-size: 18px;
     color: #E5E7EB;
 }
-.header .logo {
+
+#nutLogo {
+    padding-right: 20px;
+}
+
+.logo {
     font-size: 24px;
     color: #F9FAf8;
+    display: flex;
+    padding: 0 20px;
+    align-items: center;
+}
+
+.underHeader {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 150px;
+}
+
+.underHeader .left {
+    flex: 1;
+    color: #E5E7EB;
+}
+.underHeader .right {
+    flex: 1;
+}
+
+.underHeader .left h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 20px 0px 0px 0px;
+}
+
+.underHeader .left p {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.underHeader .left h2 {
+    border-radius: 25px;
+    background: #3882f6;
+    padding: 20px;
+    width: 85px;
+    height: auto;
 }
