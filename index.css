@@ -89,5 +89,6 @@ body {
     width: 1%;
 }
 .text {
-    overflow: hidden;
+    display: table-caption;
+    caption-side: bottom;
 }
