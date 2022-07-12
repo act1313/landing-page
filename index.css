@@ -154,3 +154,14 @@ body {
     font-size: 24px;
     color: #1f2937;
 }
+
+.copyright {
+    align-items: center;
+    background: #1f2937;
+}
+
+#copyrightText {
+    color: #E5E7EB;
+    font-size: 12px;
+    font-weight: bold;
+}
