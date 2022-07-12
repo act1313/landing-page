@@ -127,3 +127,19 @@ body {
     margin: 0;
     text-align: center;
 }
+
+.quoteThing {
+    display: flex;
+    background-color: #E5E7EB;
+    flex-direction: column;
+}
+
+#testimonial {
+    flex: 1;
+    left: 0;
+}
+
+#name {
+    flex: 1;
+    right: 100%;
+}
