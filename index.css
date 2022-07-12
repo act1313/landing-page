@@ -9,7 +9,7 @@ body {
     background-color: #1f2937;
     justify-content: space-between;
     align-items: center;
-    padding: 0 10vw;
+    padding: 0 8vw;
 }
 .header div a {
     flex: 1;
@@ -29,7 +29,7 @@ body {
     font-size: 2vw;
     color: #F9FAf8;
     display: flex;
-    padding: 0 20px;
+    padding-right: 10px;
     align-items: center;
 }
 
@@ -65,21 +65,25 @@ body {
 .left p {
     font-size: 18px;
     font-weight: 300;
+    padding-bottom: 15px;
 }
 
-.left h2 {
+.left a {
+    color: #E5E7EB;
     border-radius: 25px;
     background: #3882f6;
     padding: 20px;
     width: 85px;
     height: auto;
+    font-size: 24px;
+    font-weight: 900;
 }
 
 .fourPictures {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5vh 10vw;
+    padding: 5vh 5vw;
 }
 
 .fourPictures img {
@@ -87,6 +91,7 @@ body {
     border-radius: 25px;
     border: 0.75vw solid #3882f6;
     width: 15vw;
+    gap: 1.5vw;
 }
 .pic {
     display: table;
@@ -97,4 +102,20 @@ body {
     caption-side: bottom;
     text-align: center;
     font-weight: bold;
+}
+
+.underUnderHeader {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    justify-content: space-between;
+}
+
+#picturesThing {
+    flex: 1;
+    color: #1f2937;
+    font-size: 64px;
+    padding-top: 4vh;
+    margin: 0;
+    text-align: center;
 }
