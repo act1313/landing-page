@@ -4,6 +4,12 @@ a {
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;}
+
+.viewport {
+    width: 100%;
+    min-width: 1000px;
+    height: auto;
+}
 .header {
     display: flex;
     background-color: #1f2937;
