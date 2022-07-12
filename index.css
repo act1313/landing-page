@@ -130,8 +130,9 @@ body {
 
 .quoteThing {
     display: flex;
-    background-color: #E5E7EB;
     flex-direction: column;
+    align-items: center;
+    padding: 5vh 5vw;
 }
 
 #testimonial {
