@@ -23,7 +23,9 @@ body {
 }
 
 #nutLogo {
-    padding-right: 20px;
+    border-radius: 15px;
+    width: 4vw;
+    height: auto;
 }
 
 .logo {
@@ -32,7 +34,12 @@ body {
     display: flex;
     padding-right: 10px;
     align-items: center;
+
 }
+
+.logo h1 {
+    padding-left: 1vw;
+} 
 
 .underHeader {
     display: flex;
@@ -54,7 +61,7 @@ body {
 
 .right img {
     border-radius: 25px;
-    width: 40vw;
+    width: 30vw;
 }
 
 .left h1 {
