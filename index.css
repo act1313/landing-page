@@ -15,7 +15,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 0 8vw;
-    height: 80vh;
+    height: 10vh;
 }
 .header div a {
     flex: 1;
@@ -53,6 +53,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 5vh 10vh;
+    height: 70vh;
 }
 
 .underHeader .left {
