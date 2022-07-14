@@ -15,7 +15,7 @@ html, body {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    background-color: #E5E7EB;
+    background-color: #1f2937;
 }
 
 .headerContainer {
@@ -31,6 +31,8 @@ html, body {
 .copyrightContainer {
     flex-grow: 1;
     display: block;
+    align-items: center;
+    text-align: center;
 }
 
 .header {
@@ -100,6 +102,7 @@ html, body {
     flex-direction: column;
     margin: 0;
     justify-content: space-between;
+    background-color: #E5E7EB;
 }
 
 #picturesThing {

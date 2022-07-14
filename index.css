@@ -32,6 +32,8 @@ html, body {
 .copyrightContainer {
     flex-grow: 1;
     display: block;
+    align-items: center;
+    text-align: center;
 }
 
 .header {
