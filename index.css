@@ -15,6 +15,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 0 8vw;
+    height: 80vh;
 }
 .header div a {
     flex: 1;
@@ -92,75 +93,13 @@ body {
     font-weight: 900;
 }
 
-.fourPictures {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5vh 5vw;
-}
-
-.fourPictures img {
-    flex: 1;
-    border-radius: 25px;
-    border: 0.75vw solid #3882f6;
-    width: 15vw;
-    gap: 1.5vw;
-}
-.pic {
-    display: table;
-    width: 1%;
-}
-.text {
-    display: table-caption;
-    caption-side: bottom;
-    text-align: center;
-    font-weight: bold;
-}
-
-.underUnderHeader {
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    justify-content: space-between;
-}
-
-#picturesThing {
-    flex: 1;
-    color: #1f2937;
-    font-size: 64px;
-    padding-top: 4vh;
-    margin: 0;
-    text-align: center;
-}
-
-.quoteThing {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 5vh 20vw;
-    background-color: #E5E7EB;
-}
-
-#testimonial {
-    font-family: AlbertSans;
-    flex: 1;
-    font-size: 32px;
-    font-weight: 100;
-    color: #1f2937;
-}
-
-#name {
-    margin-left: auto;
-    font-size: 24px;
-    color: #1f2937;
-}
-
 .copyright {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 5vh 20vw;
     background-color: #1f2937;
+    height: 20vh;
 }
 
 #copyrightText {
