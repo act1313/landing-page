@@ -13,11 +13,10 @@ html, body {
 }
 
 .container {
-    padding: 8px;
     display: flex;
     flex-direction: column;
-    height: calc(100vh - 16px);
-    background: red;
+    height: 100vh;
+    background-color: #1f2937;
 }
 
 .headerContainer {
