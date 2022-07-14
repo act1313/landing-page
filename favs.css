@@ -74,7 +74,7 @@ html, body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 5vh 20vw;
+    padding: 0 20vw;
     background-color: #E5E7EB;
 }
 
@@ -97,7 +97,7 @@ html, body {
     flex-direction: column;
     align-items: center;
     background-color: #1f2937;
-    padding: 5vh 20vw;
+    padding: 0 20vw;
 }
 
 #copyrightText {

@@ -74,7 +74,7 @@ html, body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5vh 5vw;
+    padding: 0 5vw;
 }
 
 .fourPictures img {
@@ -117,7 +117,7 @@ html, body {
     flex-direction: column;
     align-items: center;
     background-color: #1f2937;
-    padding: 5vh 20vw;
+    padding: 0 20vw;
 }
 
 
