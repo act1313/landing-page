@@ -8,9 +8,32 @@ a {
 }
 html, body {
     margin: 0;
+    padding: 0;
     font-family: 'Roboto', sans-serif;
 }
 
+.container {
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 16px);
+    background: red;
+}
+
+.headerContainer {
+    flex-grow: 1;
+    display: block;
+}
+
+.underHeaderContainer {
+    flex-grow: 1;
+    display: block;
+}
+
+.copyrightContainer {
+    flex-grow: 1;
+    display: block;
+}
 
 .header {
     display: flex;
@@ -19,6 +42,23 @@ html, body {
     align-items: center;
     padding: 0 8vw;
 }
+
+.underHeader {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5vh 10vh;
+}
+
+.copyright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 5vh 20vw;
+}
+
 .header div a {
     flex: 1;
     padding: 0 10px;
@@ -48,14 +88,6 @@ html, body {
 .logo h1 {
     padding-left: 1vw;
 } 
-
-.underHeader {
-    display: flex;
-    background-color: #1f2937;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5vh 10vh;
-}
 
 .underHeader .left {
     flex: 1;
@@ -93,14 +125,6 @@ html, body {
     height: auto;
     font-size: 24px;
     font-weight: 900;
-}
-
-.copyright {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #1f2937;
-    padding: 5vh 20vw;
 }
 
 #copyrightText {
