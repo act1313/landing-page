@@ -15,7 +15,6 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 0 8vw;
-    height: 10vh;
 }
 .header div a {
     flex: 1;
@@ -53,7 +52,6 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 5vh 10vh;
-    height: 70vh;
 }
 
 .underHeader .left {
@@ -100,7 +98,6 @@ body {
     align-items: center;
     padding: 5vh 20vw;
     background-color: #1f2937;
-    height: 20vh;
 }
 
 #copyrightText {
