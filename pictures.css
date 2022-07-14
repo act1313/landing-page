@@ -1,0 +1,104 @@
+@font-face {
+    font-family: AlbertSans;
+    src: url("fonts/AlbertSans-LightItalic.ttf");
+} 
+
+a {
+    text-decoration: none;
+}
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;}
+.header {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8vw;
+}
+.header div a {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.header a {
+    font-size: 1.75vw;
+    color: #E5E7EB;
+    font-weight: 700;
+}
+
+#nutLogo {
+    border-radius: 15px;
+    width: 4vw;
+    height: auto;
+}
+
+.logo {
+    font-size: 2vw;
+    color: #F9FAf8;
+    display: flex;
+    padding-right: 10px;
+    align-items: center;
+
+}
+
+.logo h1 {
+    padding-left: 1vw;
+} 
+
+.fourPictures {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5vh 5vw;
+}
+
+.fourPictures img {
+    flex: 1;
+    border-radius: 25px;
+    border: 0.75vw solid #3882f6;
+    width: 15vw;
+    gap: 1.5vw;
+}
+.pic {
+    display: table;
+    width: 1%;
+}
+.text {
+    display: table-caption;
+    caption-side: bottom;
+    text-align: center;
+    font-weight: bold;
+}
+
+.underUnderHeader {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    justify-content: space-between;
+}
+
+#picturesThing {
+    flex: 1;
+    color: #1f2937;
+    font-size: 64px;
+    padding-top: 4vh;
+    margin: 0;
+    text-align: center;
+}
+
+
+.copyright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5vh 20vw;
+    background-color: #1f2937;
+}
+
+#copyrightText {
+    flex: 1;
+    color: #E5E7EB;
+    font-size: 12px;
+    font-weight: bold;
+}
