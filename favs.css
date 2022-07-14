@@ -11,6 +11,28 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #E5E7EB;
+}
+
+.headerContainer {
+    flex-grow: 1;
+    display: block;
+}
+
+.quoteContainer {
+    flex-grow: 1;
+    display: block;
+}
+
+.copyrightContainer {
+    flex-grow: 1;
+    display: block;
+}
+
 .header {
     display: flex;
     background-color: #1f2937;
