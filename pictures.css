@@ -156,6 +156,7 @@ html, body {
     align-items: center;
     background-color: #1f2937;
     padding: 0 20vw;
+    justify-content: center;
 }
 
 #copyrightText {
