@@ -26,6 +26,7 @@ html, body {
 .quoteContainer {
     flex: 2 1 0%;
     display: block;
+    padding: 2vh 0;
 }
 
 .copyrightContainer {
