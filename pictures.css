@@ -86,7 +86,8 @@ html, body {
 
 .copyrightContainer {
     flex-grow: 1;
-    display: block;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     text-align: center;
 }
