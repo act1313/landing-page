@@ -1,0 +1,102 @@
+@font-face {
+    font-family: AlbertSans;
+    src: url("fonts/AlbertSans-LightItalic.ttf");
+} 
+
+a {
+    text-decoration: none;
+}
+html, body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #E5E7EB;
+}
+
+.header {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8vw;
+    height: 100px;
+}
+
+.underHeader {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 48px;
+}
+
+.header div a {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.header a {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: 700;
+}
+
+#nutLogo {
+    border-radius: 15px;
+    width: 48px;
+    height: auto;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAf8;
+    display: flex;
+    padding-right: 10px;
+    align-items: center;
+
+}
+
+.logo h1 {
+    padding-left: 8px;
+} 
+
+.quoteThing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 48px;
+    padding-top: 78px;
+    background-color: #E5E7EB;
+}
+
+#testimonial {
+    font-family: AlbertSans;
+    flex: 1;
+    font-size: 32px;
+    font-weight: 100;
+    color: #1f2937;
+}
+
+#name {
+    margin-left: auto;
+    font-size: 24px;
+    color: #1f2937;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: #1f2937;
+    height: 100px;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
+
+#copyrightText {
+    flex: 1;
+    color: #E5E7EB;
+    font-size: 12px;
+    font-weight: bold;
+}
