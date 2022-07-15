@@ -75,17 +75,17 @@ html, body {
 }
 
 .headerContainer {
-    flex-grow: 1;
+    flex: 1 1 0%;
     display: block;
 }
 
 .picturesContainer {
-    flex-grow: 1;
+    flex: 2 1 0%;
     display: block;
 }
 
 .copyrightContainer {
-    flex-grow: 1;
+    flex: 1 1 0%;
     display: flex;
     justify-content: center;
     align-items: center;
