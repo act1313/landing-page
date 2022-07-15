@@ -76,17 +76,17 @@ html, body {
 }
 
 .headerContainer {
-    flex: 1 1 0%;
+    flex-grow: 1;
     display: block;
 }
 
 .picturesContainer {
-    flex: 2 1 0%;
+    flex-grow: 1;
     display: block;
 }
 
 .copyrightContainer {
-    flex: 1 1 0%;
+    flex-grow: 1;
     display: flex;
     justify-content: center;
     align-items: center;
