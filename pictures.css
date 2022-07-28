@@ -18,15 +18,7 @@ html, body {
     justify-content: space-between;
     align-items: center;
     padding: 0 8vw;
-    height: 100px;
-}
-
-.underHeader {
-    display: flex;
-    background-color: #1f2937;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 48px;
+    height: 10vh;
 }
 
 .header div a {
@@ -67,11 +59,11 @@ html, body {
 }
 
 .fourPictures img {
-    flex: 1;
     border-radius: 25px;
     border: 0.75vw solid #3882f6;
     width: 15vw;
     gap: 1.5vw;
+    margin: 0 25px;
 }
 .pic {
     display: table;
@@ -87,19 +79,20 @@ html, body {
 .picturesPage {
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin: 0;
-    justify-content: space-between;
+    justify-content: center;
     background-color: #E5E7EB;
-    padding-top: 32px;
+    height: 80vh;
 }
 
 #picturesThing {
-    flex: 1;
     color: #1f2937;
     font-size: 48px;
     padding: 6vh 0;
     margin: 0;
     text-align: center;
+    height: 48px;
 }
 
 .copyright {
@@ -108,7 +101,7 @@ html, body {
     text-align: center;
     justify-content: center;
     background-color: #1f2937;
-    height: 100px;
+    height: 10vh;
     position: fixed;
     bottom: 0;
     width: 100vw;

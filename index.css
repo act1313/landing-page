@@ -19,7 +19,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 0 8vw;
-    height: 100px;
+    height: 10vh;
 }
 
 .underHeader {
@@ -27,8 +27,9 @@ body {
     background-color: #1f2937;
     justify-content: space-between;
     align-items: center;
-    padding: 0 48px;
+    padding: 0 10vw;
     padding-top: 24px;
+    height: 80vh;
 }
 
 .header div a {
@@ -73,7 +74,7 @@ body {
 
 .right img {
     border-radius: 25px;
-    width: 400px;
+    height: 50vh;
 }
 
 .left h1 {
@@ -94,7 +95,7 @@ body {
     text-align: center;
     justify-content: center;
     background-color: #1f2937;
-    height: 100px;
+    height: 10vh;
     position: fixed;
     bottom: 0;
     width: 100vw;
