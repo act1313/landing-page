@@ -18,9 +18,12 @@ body {
     background-color: #1f2937;
     justify-content: space-between;
     align-items: center;
-    padding: 0 8vw;
     height: 10vh;
-    width: 100vw;
+    width: 100%;
+}
+
+.items {
+    margin-right: 4vw;
 }
 
 .underHeader {
@@ -29,7 +32,6 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 0 10vw;
-    padding-top: 24px;
     height: 80vh;
 }
 
@@ -56,7 +58,7 @@ body {
     display: flex;
     padding-right: 10px;
     align-items: center;
-
+    margin-left: 4vw;
 }
 
 .logo h1 {
@@ -70,12 +72,12 @@ body {
 }
 .right {
     flex: 1;
-    padding: 25px;
 }
 
 .right img {
     border-radius: 25px;
-    height: 50vh;
+    width: max(50%, 30vw);
+    margin-right: 4vw;
 }
 
 .left h1 {
@@ -97,7 +99,7 @@ body {
     justify-content: center;
     background-color: #1f2937;
     height: 10vh;
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%;
 }

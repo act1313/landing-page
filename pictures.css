@@ -17,9 +17,15 @@ html, body {
     background-color: #1f2937;
     justify-content: space-between;
     align-items: center;
-    padding: 0 8vw;
     height: 10vh;
-    width: 100vw;
+    width: 100%;
+}
+
+.items {
+    display: flex;
+    text-align: center;
+    margin-right: 4vw;
+    align-items: center;
 }
 
 .header div a {
@@ -45,7 +51,7 @@ html, body {
     display: flex;
     padding-right: 10px;
     align-items: center;
-
+    margin-left: 4vw;
 }
 
 .logo h1 {
@@ -90,11 +96,11 @@ html, body {
 
 #picturesThing {
     color: #1f2937;
-    font-size: 48px;
+    font-size: 3em;
     padding: 6vh 0;
     margin: 0;
     text-align: center;
-    height: 48px;
+    height: auto;
 }
 
 .copyright {
@@ -104,7 +110,7 @@ html, body {
     justify-content: center;
     background-color: #1f2937;
     height: 10vh;
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%;
 }
@@ -114,4 +120,36 @@ html, body {
     color: #E5E7EB;
     font-size: 12px;
     font-weight: bold;
+}
+
+
+@media (max-width: 500px) {
+    .fourPictures {
+        flex-direction: column;
+        padding: 0 0;
+        gap: 2vh;
+    }
+    .fourPictures img {
+        border-radius: 25px;
+        border: 0.75vw solid #3882f6;
+        gap: 1.5vh;
+    }
+    #picturesThing {
+        color: #1f2937;
+        font-size: 2em;
+        padding: 0 0;
+        text-align: center;
+        height: auto;
+        margin-bottom: 4vh;
+    }
+    p {
+        margin: 0 0;
+    }
+    .items {
+        flex-direction: column;
+        gap: 0.75vh;
+    }
+    .header a {
+        font-size: 12px;
+    }
 }

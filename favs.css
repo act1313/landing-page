@@ -17,9 +17,12 @@ html, body {
     background-color: #1f2937;
     justify-content: space-between;
     align-items: center;
-    padding: 0 8vw;
     height: 10vh;
-    width: 100vw;
+    width: 100%;
+}
+
+.items {
+    margin-right: 4vw;
 }
 
 .header div a {
@@ -37,6 +40,7 @@ html, body {
     border-radius: 15px;
     width: 48px;
     height: auto;
+    margin-left: 4vw;
 }
 
 .logo {
@@ -67,6 +71,7 @@ html, body {
     font-size: 32px;
     font-weight: 100;
     color: #1f2937;
+    max-height: 100%;
 }
 
 #name {
@@ -82,7 +87,7 @@ html, body {
     justify-content: center;
     background-color: #1f2937;
     height: 10vh;
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%;
 }
