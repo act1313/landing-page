@@ -27,6 +27,7 @@ body {
     text-align: center;
     margin-right: 4vw;
     align-items: center;
+    gap: 2vw;
 }
 
 
@@ -125,7 +126,7 @@ body {
     }
     .items {
         flex-direction: column;
-        gap: 0.75vh;
+        gap: 1vh;
     }
     .left h1 {
         font-size: 36px;

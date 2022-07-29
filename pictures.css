@@ -26,6 +26,7 @@ html, body {
     text-align: center;
     margin-right: 4vw;
     align-items: center;
+    gap: 2vw;
 }
 
 .header div a {
@@ -152,7 +153,7 @@ html, body {
     }
     .items {
         flex-direction: column;
-        gap: 0.75vh;
+        gap: 1vh;
     }
     .header a {
         font-size: 12px;
