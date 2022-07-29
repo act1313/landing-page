@@ -84,6 +84,7 @@ html, body {
     justify-content: center;
     background-color: #E5E7EB;
     height: 80vh;
+    max-width: 100%;
 }
 
 #picturesThing {
