@@ -81,6 +81,7 @@ html, body {
     caption-side: bottom;
     text-align: center;
     font-weight: bold;
+    font-size: 16px;
 }
 
 .picturesPage {
@@ -151,6 +152,9 @@ html, body {
         gap: 0.75vh;
     }
     .header a {
+        font-size: 12px;
+    }
+    .text {
         font-size: 12px;
     }
 }
