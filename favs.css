@@ -84,7 +84,7 @@ html, body {
     height: 10vh;
     position: fixed;
     bottom: 0;
-    width: 100vw;
+    width: 100%;
 }
 
 #copyrightText {
