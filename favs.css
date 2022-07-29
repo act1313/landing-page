@@ -22,7 +22,10 @@ html, body {
 }
 
 .items {
+    display: flex;
+    text-align: center;
     margin-right: 4vw;
+    align-items: center;
 }
 
 .header div a {
@@ -97,4 +100,20 @@ html, body {
     color: #E5E7EB;
     font-size: 12px;
     font-weight: bold;
+}
+
+@media (max-width: 500px) {
+    .header a {
+        font-size: 12px;
+    }
+    .items {
+        flex-direction: column;
+        gap: 0.75vh;
+    }
+    #testimonial {
+        font-size: 24px;
+    }
+    #name {
+        font-size: 18px;
+    }
 }
