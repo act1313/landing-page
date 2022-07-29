@@ -34,7 +34,7 @@ html, body {
 }
 
 .header a {
-    font-size: 18px;
+    font-size: 24px;
     color: #E5E7EB;
     font-weight: 700;
 }
@@ -96,10 +96,14 @@ html, body {
 }
 
 #copyrightText {
-    flex: 1;
+    margin-right: 1.5vw;
     color: #E5E7EB;
     font-size: 12px;
     font-weight: bold;
+}
+
+#github:hover {
+    transform: scale(1.2);
 }
 
 @media (max-width: 500px) {
