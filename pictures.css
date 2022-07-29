@@ -92,6 +92,7 @@ html, body {
     background-color: #E5E7EB;
     height: 80vh;
     max-width: 100%;
+    max-height: 80vh;
 }
 
 #picturesThing {
