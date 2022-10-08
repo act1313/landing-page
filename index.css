@@ -137,3 +137,9 @@ body {
         margin-right: 4vw;
     }
 }
+
+#linkToPage {
+    text-decoration: none;
+    color: #E5E7EB;
+    margin-left: 2vw;
+}
